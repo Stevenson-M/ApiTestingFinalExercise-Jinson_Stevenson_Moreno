@@ -29,8 +29,8 @@ public class BankPojo {
      * @param transactionType the transaction type of the user in the bank : String
      * @param email the email of the user in the bank : String
      * @param active the active of the user in the bank : String
-     *                                                                                                      @param country the country of the user in the bank : String
-     *                                                                                                                     @param telephone the telephone of the user in the bank : String
+     * @param country the country of the user in the bank : String
+     *@param telephone the telephone of the user in the bank : String
      */
     public BankPojo(String name, String lastName, int accountNumber, int amount, String transactionType, String email, String active, String country, String telephone) {
         this.name = name;

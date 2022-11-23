@@ -22,6 +22,4 @@ public class BaseTest extends ApiMethods {
         Reporter.info("Test finished...");
     }
 
-
-
 }
