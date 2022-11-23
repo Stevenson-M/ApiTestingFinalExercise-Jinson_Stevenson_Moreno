@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite API">
+    
+    <listeners>
+        <listener class-name="org.bankAccount.utils.Listener"/>
+    </listeners>
+
+
+    <parameter name="endpoint" value="https://637bdb6472f3ce38ea969c93.mockapi.io/BankInfoApi/Bank"/>
+
+    <test name="Endpoint Is Empty Test" enabled="true" >
+        <classes>
+            <class name="org.bankAccount.tests.EndpointIsEmptyTest"/>
+        </classes>
+    </test>
+    <test name="Initialize POJO Test" enabled="true" >
+        <classes>
+            <class name="org.bankAccount.tests.InitializePOJOTest"/>
+        </classes>
+    </test>
+    <test name="Get Request Email Verification Test" enabled="true" >
+        <classes>
+            <class name="org.bankAccount.tests.GetRequestEmailVerificationTest"/>
+        </classes>
+    </test>
+    <test name="Update Account Number Test" enabled="true" >
+        <classes>
+            <class name="org.bankAccount.tests.UpdateAccountNumberTest"/>
+        </classes>
+    </test>
+
+
+
+</suite>
